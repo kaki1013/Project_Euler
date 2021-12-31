@@ -1,5 +1,5 @@
 # 콜라츠 -> 단계 수 측정 후 리스트 생성 -> 단계수 리스트 중 가장 큰 것의 index +1 추출
-def collatz(num): # 한 단계
+def collatz(num):  # 한 단계
     if num % 2 == 0:
         num /= 2
     else:
